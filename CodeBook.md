@@ -1,11 +1,11 @@
 
 
-## CODE BOOK ON HOW TO GET TO tidydata.txt
+# CODE BOOK ON HOW TO GET TO tidydata.txt
 1. Download data from the link below and unzip it into working directory of R Studio.
 2. Execute the R script.
 
 
-# About the R script "run_analysis.R"
+## About the R script "run_analysis.R"
 
 1. Merge the train and test datasets. To merge the train and test datasets take the following ten steps 
 
@@ -41,7 +41,7 @@
 
 The code assumes all the data is present in the same folder, un-compressed and without names altered.
 
-# About variables   
+## About variables   
 * `xtrain`, `ytrain`, `xtest`, `ytest`, `subtrain`, `subtest`, `activity`, `features` contain the data from the downloaded files.
 
 * `cmbineX`, `combineY` and `combineSubj` merge the previous datasets for further analysis.
